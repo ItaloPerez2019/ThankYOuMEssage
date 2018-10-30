@@ -12,12 +12,12 @@
     <form action="/contact" method ="post">
         {{ csrf_field() }}
         <div class="form-group">
-            <label for="email">Email address</label>
-            <input name="email" type="email" class="form-control" id="email" placeholder="name@example.com">
+            <label for="email">Please enter email  </label>
+            <input name="email" type="email" class="form-control" id="email" placeholder="john@yahoo.com">
         </div>
 
         <div class="form-group">
-            <label for="body">Message</label>
+            <label for="body">Please enter your name </label>
             <textarea name="body" class="form-control" id="body" rows="3"></textarea>
         </div>
         <button type="submit" class="btn btn-primary mb-2">Submit</button>
