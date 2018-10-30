@@ -22,5 +22,10 @@ Route::get('/contact', function () {
     return view('pages.contact');
 });
 Route::post('/contact', function () {
-    return view('welcome');
+
+    $data = request()-> all();
+
+    echo "email:" .$data['email'] . '<br>';
+    echo "body" .$data['body'];
+
 });
