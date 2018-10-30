@@ -1,11 +1,12 @@
 <!doctype html>
 <html lang="en">
 
-@include ('includes.head')
+    @include ('includes.head')
 
 
 <body>
-<h1>Hello, world!</h1>
+
+    @yield ('content')
 
 
 @include ('includes.jsfooter')
